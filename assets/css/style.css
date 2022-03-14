@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #00e165;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Palette Colori */
@@ -16,4 +16,8 @@ body {
   --Col: #006cfa;
   --Col-lighter: #00e165;
   --Border-light: rgb(255, 255, 255);
+}
+
+h1 {
+    color: var(--Dark);
 }

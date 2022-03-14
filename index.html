@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,71 @@
     <!-- LINK AL FOGLIO DI STILE -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
+    <!-- 1° Container - descrittivo + nested -->
+    <div class="container">
+        <!-- Titolo -->
+        <h1>Esercizio per Casa</h1>
+        <!-- Prima Riga , 12 COL -->
+        <section class="row">
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+            <div class="col-1 d-flex align-c jus-cen">Col-1</div>
+        </section>
+        <!-- Seconda Riga , COL -->
+        <section class="row">
+            <div class="col d-flex align-c jus-cen">Col</div>
+            <div class="col d-flex align-c jus-cen">Col</div>
+            <div class="col d-flex align-c jus-cen">Col</div>
+        </section>
+        <!-- Terza Riga , 1 COL -->
+        <section class="row">
+            <div class="col-12 d-flex align-c jus-cen">12 Col</div>
+        </section>
+        <!-- Quarta Riga , 8/2/2 -->
+        <section class="row">
+            <div class="col-8 d-flex align-c jus-cen">8 Col</div>
+            <div class="col-2 d-flex align-c jus-cen">2 Col</div>
+            <div class="col-2 d-flex align-c jus-cen">2 Col</div>
+        </section>
+        <!-- Quinta Riga , 1/2/2/6/1 -->
+        <section class="row">
+            <div class="col-1 d-flex align-c jus-cen">1 col</div>
+            <div class="col-2 d-flex align-c jus-cen">2 Col</div>
+            <div class="col-2 d-flex align-c jus-cen">2 Col</div>
+            <div class="col-6 d-flex align-c jus-cen">6 Col</div>
+            <div class="col-1 d-flex align-c jus-cen">1 col</div>
+        </section>
+        <!-- Seconda Riga 2 da 6 e varie nested -->
+        <section class="row">
+            <!-- Prima sezione - Nested 2/2/8 -->
+            <div class="col-6 d-flex align-c jus-cen">
+                <div class="nested row">
+                    <div class="nest-col-2 d-flex align-c jus-cen">Nested 2 Col</div>
+                    <div class="nest-col-2 d-flex align-c jus-cen">Nested 2 Col</div>
+                    <div class="nest-col-8 d-flex align-c jus-cen">Nested 8 Col</div>
+                </div>
+            </div>
+            <!-- Seconda sezione - Nested 6-6 -->
+            <div class="col-6 d-flex align-c jus-cen">
+                <div class="nested row">
+                    <div class="nest-col-6 d-flex align-c jus-cen">Nested 6 Col</div>
+                    <div class="nest-col-6 d-flex align-c jus-cen">Nested 6 Col</div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-
-    
-    
 </body>
+
 </html>
