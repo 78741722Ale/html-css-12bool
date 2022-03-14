@@ -1,0 +1,39 @@
+/*#region Common utilities  */
+
+/* Display Flex */
+.d-flex {
+    display: flex;
+}
+/* Align Items */
+.align-c {
+    align-items: center;
+}
+/* Justify-Content */
+.jus-cen {
+    justify-content: center;
+}
+/* Margini */
+.ml-15 {
+    margin-left: 15px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+/* Border */
+.bor-light {
+    border: 0.5px solid var(--Border-light);
+}
+/*#endregion */
+
+
+
+
+.col-1 {
+    width: calc((100% / 12) * 1);
+}
+
+
+
+
+
+

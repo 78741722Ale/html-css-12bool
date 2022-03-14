@@ -1,0 +1,19 @@
+/* Regola Generale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #00e165;
+}
+
+/* Palette Colori */
+:root {
+  --Dark: rgb(0, 0, 0);
+  --Light: rgb(255, 255, 255);
+  --Col: #006cfa;
+  --Col-lighter: #00e165;
+  --Border-light: rgb(255, 255, 255);
+}
